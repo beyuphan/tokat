@@ -215,7 +215,7 @@ body {
   width: 100%;
   max-width: 450px;
   margin: 0 auto;
-  cursor: crosshair;
+  cursor: url('/fist.svg') 20 20, pointer;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation; /* Prevent zooming on fast mobile taps */
@@ -224,6 +224,7 @@ body {
 }
 
 .body-container:active {
+  cursor: url('/fist-active.svg') 20 20, pointer;
   transform: scale(0.98);
 }
 
